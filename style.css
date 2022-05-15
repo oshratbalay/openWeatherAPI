@@ -1,0 +1,51 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1541531455306-a1008c85edd9%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D1950%26q%3D80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 600px;
+  width: 300px;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 100px;
+  border: solid 2px;
+}
+
+.main-container .output-container {
+  margin: 25px;
+}
+
+.main-container input[type="text"] {
+  background-color: beige;
+  width: 200px;
+  height: 35px;
+  border-radius: 15px;
+  outline: 0;
+}
+
+.main-container .btn {
+  height: 35px;
+  width: 200px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=style.css.map */
